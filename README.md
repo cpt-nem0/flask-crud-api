@@ -19,9 +19,11 @@ with the mongouri in it.
 
 **step4:**
 now, run the ```.\run.ps1``` file in **Powershell** 
-this will create your virtal env and start the server for API.
+this will create your virtual environment and start the server for API.
 
-That's it now you can test the API running locally on you system
+That's it now you can test the API running locally on you system. the api will be up locally on:
+
+```http://127.0.0.1:5000/```
 
 
 ### For Dokcer users:
@@ -39,7 +41,7 @@ for testing, use the below endpoints to work with it
 
 | Endpoint | Request | Description|
 | ----------- | ----------- | ----------- | 
-|  / | ANY | To check if the API is running or not |
+|  / | GET | To check if the API is running or not |
 | /add_product | POST | To add new product, takes **raw json data** |
 | /products | GET | List out all the products. |
 | /products/<product_id> | GET | Get the product by it's *product_id* |
