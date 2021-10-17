@@ -6,7 +6,7 @@
 To run the the API locally, you need following stuff:
  - [Python](https://www.python.org/downloads/)
  - [MongoDB](https://www.mongodb.com/try/download/community)
- - [Docker](https://www.docker.com/products/docker-desktop) (optional: if you don't want to you docker)
+ - [Docker](https://www.docker.com/products/docker-desktop) (optional: if you don't want to use docker)
 
 **step2:**
 next, step 'clone this repo'
