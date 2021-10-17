@@ -13,8 +13,8 @@ try:
     # conn = MongoClient('mongodb://localhost:27017')
     conn = MongoClient(os.getenv('MONGO_URI'))
     print('Connected to MongoDB')
-except pymongo.errors.ConnectionFailure as e:
-    print(f'ERROR: {e}')
+except pymongo.errors.ConnectionFailure:
+    print('connection failure')
 
 db = conn.greendeck_task
 
