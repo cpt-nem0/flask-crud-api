@@ -51,3 +51,5 @@ for testing, use the below endpoints to work with it
 | /list_unique_brands | GET | To add new product |
 | /count_high_offer_price | GET | To add new product |
 | /count_high_discount | GET | To add new product |
+
+> Note: Add **data.json** in the root dir if u want to init the DB.
